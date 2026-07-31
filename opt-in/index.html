@@ -3,27 +3,33 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sol SMS Test - Text Opt-In</title>
+    <title>Sol SMS Test — SMS Opt-In</title>
     <style>
       :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
       body { max-width: 42rem; margin: 4rem auto; padding: 0 1.25rem; line-height: 1.6; }
       a { color: #3b82f6; }
+      .cta { border: 2px solid currentColor; border-radius: 0.75rem; margin: 2rem 0; padding: 1.5rem; }
+      .cta h2 { margin-top: 0; }
+      .instruction { font-size: 1.25rem; }
     </style>
   </head>
   <body>
-    <h1>Text Opt-In for Sol SMS Test</h1>
-    <p>Sol SMS Test operates under the registered SMS brand <strong>vann</strong>. It is a recurring, low-volume automated personal-assistant notification program for one account owner. It does not accept public subscriptions.</p>
-    <h2>How to opt in</h2>
-    <p>During private one-to-one setup, the program operator gives the sole eligible account owner the dedicated Sol SMS number and directs the owner to this page. From the mobile number being enrolled, the owner voluntarily texts <strong>START</strong> to <strong>(336) 850-2295</strong>. No application-initiated message is sent until that START message is received. The originating mobile number, keyword, and timestamp are retained as the consent record.</p>
-    <h2>Consent disclosure</h2>
-    <p>By texting <strong>START</strong>, you agree to receive recurring automated Sol SMS Test personal-assistant reminders, requested check-ins, account notifications, and service alerts from <strong>vann</strong>. Message frequency varies. Message and data rates may apply. Reply <strong>HELP</strong> for help or <strong>STOP</strong> to opt out. Consent is not a condition of purchase.</p>
-    <p>Consent is limited to this program, is not transferable, and may be withdrawn at any time by replying <strong>STOP</strong>.</p>
+    <p><a href="../">← Sol SMS Test</a></p>
+    <h1>Sol SMS Test — SMS Opt-In</h1>
+    <p>Sol SMS Test is a recurring, low-volume automated personal-assistant notification program operated by <strong>Vann Duggins</strong> under the registered SMS brand <strong>vann</strong>. Enrollment is limited to the program's single account owner.</p>
+
+    <section class="cta" aria-labelledby="sms-opt-in-advertisement">
+      <h2 id="sms-opt-in-advertisement">Text-message opt-in advertisement</h2>
+      <p class="instruction">From the mobile number being enrolled, text <strong>START</strong> to <strong>(336) 850-2295</strong> to subscribe.</p>
+      <p>By texting <strong>START</strong>, you agree to receive recurring automated Sol SMS Test personal-assistant reminders, requested check-ins, account notifications, and service alerts from <strong>vann</strong>. Message frequency varies. Message and data rates may apply. Reply <strong>HELP</strong> for help or <strong>STOP</strong> to opt out. Consent is not a condition of purchase.</p>
+      <p><a href="../terms/">Terms and Conditions</a> · <a href="../privacy/">Privacy Policy</a></p>
+    </section>
+
+    <h2>How consent is recorded</h2>
+    <p>No application-initiated SMS is sent before the inbound <strong>START</strong> message is received. The originating mobile number, keyword, and timestamp are retained as the consent record.</p>
+    <p>This page is the program's only opt-in method. Consent is specific to Sol SMS Test, is not transferable, and may be withdrawn at any time by replying <strong>STOP</strong>. Sol does not accept verbal, paper, in-person, form-based, or third-party opt-ins.</p>
     <h2>Confirmation message</h2>
     <p>"vann / Sol SMS Test: You are subscribed to recurring automated personal-assistant notifications. Message frequency varies. Message and data rates may apply. Reply HELP for help or STOP to opt out."</p>
     <p>Sol does not send marketing messages or maintain a public signup list.</p>
-    <ul>
-      <li><a href="../privacy/">Privacy Policy</a></li>
-      <li><a href="../terms/">Terms and Conditions</a></li>
-    </ul>
   </body>
 </html>
